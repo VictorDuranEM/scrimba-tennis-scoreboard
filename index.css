@@ -1,0 +1,80 @@
+@font-face {
+    font-family: timer;
+    src: url("timer.ttf");
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    margin: 0;
+    background: #1B244A;
+    font-family: timer;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.counter-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 45px;
+}
+
+.counter-number {
+    width: 100px;
+    height: 110px;
+    margin-top: 18px;
+    color: #F94F6D;
+    background: #080001;
+    border-radius: 5px;
+    font-size: 100px;
+    padding: 26px 35px 5px;    
+}
+
+.negative-indent-30 {
+    text-indent: -30px;    
+}
+
+.negative-indent-10 {
+    text-indent: -10px;
+}
+
+.counter-buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between
+}
+
+.counter-buttons > button {
+    font-family: inherit;
+    background: transparent;
+    color: #9AABD8; 
+    width: 47px;
+    height: 47px;
+    padding-top: 6px;
+    font-size: 20px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.new-game-btn {
+    margin-top: 20px;
+    background: #9AABD8;
+    padding: 10px 20px 7px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #1B244A;
+}
+
+.glow {
+    text-shadow: 0 0 15px gold;
+}
